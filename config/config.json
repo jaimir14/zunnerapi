@@ -6,8 +6,10 @@
 
     "databaseConfig": 
     {
-      "host": "localhost",
-      "database": "zunner_dev"
+      "host": "ds023704.mlab.com:23704",
+      "database": "zunner_dev",
+      "user": "jaimir14",
+      "pass": "pm14"
 
       },
 
