@@ -11,13 +11,12 @@ var shipmentSchema = new Schema({
   pointA: String,
   pointB: String,
   pointC: String,
-  country: String,
-  estimatedPrice: numeric,
+  estimatedPrice: Number,
   currency: String,
   country: {
     type: Schema.Types.ObjectId,
     ref:"Countries"
-  }
+  },
   category: {
     type: Schema.Types.ObjectId,
     ref: "Category" 
