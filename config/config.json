@@ -1,0 +1,42 @@
+{  
+  "i18n":{  
+    "contentPath":"path:./locales",
+    "fallback":"en-US"
+    },
+
+    "databaseConfig": 
+    {
+      "host": "localhost",
+      "database": "zunner_dev"
+
+      },
+
+      "jwt-conf": 
+      {
+        "secret": "cafreymate"
+        },
+
+        "specialization":{  
+
+         },
+
+         "middleware":{  
+          "static":{  
+           "module":{  
+            "arguments":[  
+            "path:./.build"
+            ]
+          }
+          },
+          "router":{  
+           "module":{  
+            "arguments":[  
+            {  
+              "directory":"path:./controllers"
+            }
+            ]
+          }
+        }
+      }
+
+    }

@@ -1,0 +1,50 @@
+{
+  "name": "zunner",
+  "version": "0.1.0",
+  "description": "shipment services",
+  "author": "zunner_apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt build",
+    "all": "npm run build && npm run test",
+    "postinstall": "grunt postinstall"
+    },
+    "dependencies": {
+      "bcrypt": "^0.8.1",
+      "bcryptjs": "^2.3.0",
+      "body-parser": "~1.9.2",
+      "construx": "^1.0.0",
+      "construx-copier": "^1.0.0",
+      "eslint": "^1.10.3",
+      "express": "^4.12.2",
+      "jwt-simple": "^0.3.1",
+      "jsonwebtoken": "^5.0.4",
+      "kraken-js": "^1.0.3",
+      "mongoose": "^4.4.15",
+      "passport": "^0.3.2",
+      "passport-jwt": "^1.2.1",
+      "passport-local": "^1.0.0",
+      "requirejs": "^2.2.0"
+      },
+      "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-cli": "^0.1.13",
+        "grunt-config-dir": "^0.3.2",
+        "grunt-contrib-clean": "^0.6.0",
+        "grunt-contrib-requirejs": "^0.4.4",
+        "grunt-copy-browser-modules": "^5.0.1",
+        "grunt-copy-to": "0.0.10",
+        "grunt-eslint": "^17.3.2",
+        "grunt-mocha-cli": "^1.14.0",
+        "mocha": "^1.18.0",
+        "supertest": "^0.9.0"
+        },
+        "browserPackage": {
+          "overrides": {
+            "requirejs": {
+              "main": "require"
+            }
+          }
+        }
+      }

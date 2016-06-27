@@ -1,0 +1,14 @@
+{
+  "generator-kraken": {
+    "taskModule": "grunt",
+    "lintModule": "eslint",
+    "description": "shipment services",
+    "author": "zunner_apps",
+    "templateModule": false,
+    "i18n": "i18n",
+    "componentPackager": false,
+    "cssModule": false,
+    "jsModule": "requirejs",
+    "useJson": null
+  }
+}
