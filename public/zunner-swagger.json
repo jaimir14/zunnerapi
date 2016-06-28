@@ -2,7 +2,7 @@
 	"swagger": "2.0",
 	"info": {
 		"title": "Zunner API",
-		"description": "Let's get awesome with the Zunner API",
+		"description": "Let's get awesome with the Zunner API!",
 		"version": "1.0.0"
 		},
 		"host": "zunnerapi.herokuapp.com",
