@@ -1,22 +1,22 @@
 {
-    "middleware": {
+	"middleware": {
 
-        "devtools": {
-            "enabled": true,
-            "priority": 35,
-            "module": {
-                "name": "construx",
-                "arguments": [
-                "path:./public",
-                "path:./.build",
-                {                        
-                    "copier": {
-                        "module": "construx-copier",
-                        "files": "**/*"
-                    }
-                }
-                ]
-            }
-        }
-    }
+		"devtools": {
+			"enabled": true,
+			"priority": 35,
+			"module": {
+				"name": "construx",
+				"arguments": [
+				"path:./public",
+				"path:./.build",
+				{                        
+					"copier": {
+						"module": "construx-copier",
+						"files": "**/*"
+					}
+				}
+				]
+			}
+		}
+	}
 }

@@ -10,7 +10,7 @@ var app;
 
 app = module.exports = express();
 app.use(kraken(options));
-
+app.use('/apidoc', express.static(__dirname + '/doc'));
 app.on('start', function () {
 	console.log('Application ready to serve requests.');
 	console.log('Environment: %s', app.kraken.get('env:env'));
